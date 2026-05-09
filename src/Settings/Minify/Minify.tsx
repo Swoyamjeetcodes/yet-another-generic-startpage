@@ -1,10 +1,10 @@
 import JSZip from "jszip"
 
 import { useMiniCssVars, useMiniHtml, useMiniJs, downloadBlob } from "./utils"
+import { rawStyles, rawFavicon } from "./utils/rawFiles"
 import { Button, Section } from "../../components"
 import { useCustomCss } from "../../Providers/CustomCss"
 import { Note } from "../fragments/Note"
-import { rawStyles, rawFavicon } from "./utils/rawFiles"
 
 export const Minify = () => {
   const [customCss] = useCustomCss()

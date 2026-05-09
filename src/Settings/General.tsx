@@ -1,7 +1,6 @@
 import styled from "@emotion/styled"
 
-import { Section, Slider, Switch, TextInput } from "../components"
-import { ImageInput } from "../components/TextInputs/ImageInput"
+import { ImageInput, Section, Slider, Switch, TextInput } from "../components"
 import { useGeneralSettings } from "../Providers"
 import { Note } from "./fragments/Note"
 

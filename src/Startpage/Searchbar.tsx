@@ -62,7 +62,6 @@ export const Searchbar = () => {
       <Input
         value={value}
         placeholder={placeholder}
-        autoFocus
         onChange={setValue}
         onKeyDown={key => key === "Enter" && handleSearch()}
       />
